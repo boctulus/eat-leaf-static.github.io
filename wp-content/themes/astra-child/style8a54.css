@@ -1,0 +1,455 @@
+/**
+Theme Name: Eat-leaf
+Author: Pablo Bozzolo
+Description: Astra child
+Version: 1.0.0
+Text Domain: eat-leaf
+Template: astra
+*/
+
+
+/*
+    Primeras cards
+
+*/
+
+.custom-container {
+    background-color: transparent;
+}
+
+.custom-title {
+    color: #296215;
+    font-family: YAFdtQi73Xs-0;
+    font-size: 58.6668px;
+    font-variant-ligatures: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+}
+
+.custom-card {
+    border: 0;
+}
+
+.custom-img {
+    height: 250px !important;
+    object-fit: cover;
+}
+
+.custom-card-title {
+    color: #296215;
+    background-color: transparent !important;
+    font-size: 1.6em !important;
+}
+
+
+.custom-card-body {
+    padding: 1rem 0 0 0;
+    background-color: #E5EFD3 !important;
+    font-size: 1.3em;
+}
+
+.custom-card-text {
+    color: #296215;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: transparent !important;
+}
+
+
+/*
+    Cards
+*/
+
+
+.centered-card-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 100vh !important;     
+}
+
+.centered-card {
+    background-color: rgba(255, 255, 255, 0.75); /* Fondo blanco con 50% de transparencia */
+    border: 1px solid #ccc; 
+    padding: 5vh; 
+    text-align: center;
+}
+
+.centered-card-heading {
+    margin-bottom: 20px; 
+    font-size: 3.5rem !important; 
+    line-height: 1.5; 
+    color: #296215 !important;
+}
+
+.centered-card-text {
+    margin-bottom: 20px; 
+    font-size: 1.5rem !important; 
+    line-height: 1.7; 
+    color: #296215;
+}
+
+
+
+.white-translucent-bg {
+    background-color: rgba(255, 255, 255, 0.75); /* Fondo blanco con 75% de transparencia */
+}
+
+@media only screen and (min-width: 992px) {
+    .container-fluid .card {
+        height: 40vh !important;
+    }   
+}
+
+/*
+    Fonts
+*/
+
+
+@media only screen and (max-width: 480px) {
+    .container-fluid .row > span {
+        font-size: 2.7em !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container-fluid .row > span {
+        font-size: 3em !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .container-fluid .row > span {
+        font-size: 3.5em !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container-fluid .row > span {
+        font-size: 4em !important;
+    }
+}
+
+
+/*
+    Enlaces al footer
+*/
+
+.contact-us-link {
+    color: #296215 !important;
+    text-decoration: none; 
+}
+
+.contact-us-link:visited {
+    color: #296215 !important;
+}
+
+.contact-us-link:hover {
+    color: #296215 !important;
+}
+
+
+/* 
+    Footer
+*/
+
+
+@media (max-width: 767px) {
+    [data-id="3233c1a"] {
+      display: none;
+    }
+}  
+
+[data-id="be73d33"] {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+[data-id="be73d33"] {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+footer-contact-us {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-contact-us {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.footer-contact-us p {
+    margin: 5px 0;
+}
+
+.footer-contact-us span {
+    color: #f5f5f5;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footer-contact-email a {
+    color: white !important;
+}
+
+.footer-contact-phone {
+    color: #f5f5f5;
+}
+
+
+
+.copy-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.copy-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.copy-footer a:hover {
+    text-decoration: underline;
+}
+
+
+/*
+    Botonera Astra
+*/
+
+/* Estilo para el contenedor del menú */
+.ast-flex.submenu-with-border {
+    margin-right: 0; /* Eliminar margen derecho */
+    padding-right: 0; /* Eliminar padding derecho */
+}
+
+/* Estilo para los elementos del menú */
+.ast-flex.submenu-with-border .menu-item {
+    margin-right: 0; /* Eliminar margen entre elementos */
+    border-right: 1px solid #ccc; /* Agregar borde entre elementos */
+    height: auto; /* Reducir la altura de los elementos */
+}
+
+/* Estilo para los enlaces del menú */
+.ast-flex.submenu-with-border .menu-link {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #333; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno del enlace */
+    background-color: #f0f0f0; /* Color de fondo */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Estilo para el enlace activo */
+.ast-flex.submenu-with-border .menu-item.current-menu-item .menu-link,
+.ast-flex.submenu-with-border .menu-item.current_page_item .menu-link {
+    background-color: #666; /* Color de fondo del enlace activo */
+    color: #fff; /* Color del texto del enlace activo */
+}
+
+/* Estilo hover para los enlaces */
+.astflex.submenu-with-border .menu-link:hover {
+    background-color: #ccc; /* Color de fondo al pasar el cursor sobre el enlace */
+}-
+
+
+
+
+
+/*
+    Cards
+*/
+
+/* Define la fuente EBGaramond-SemiBold para los títulos */
+h5.card-title {
+    font-family: 'EBGaramond-SemiBold', serif;
+}
+
+/* Define la fuente EBGaramond-Regular para el texto */
+p.card-text {
+    font-family: 'EBGaramond-Regular', serif;
+}
+
+/*
+    FONTS
+*/
+
+/*
+    Fuente EBGaramond-Regular
+*/
+
+/* Define la fuente EBGaramond-Regular */
+@font-face {
+    font-family: 'EBGaramond-Regular';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdJtfMD6Y/0/EBGaramond-Regular.ce6af642f469dceba18a5.31c65729847dd0d8831d50625627d1f2.woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Define la fuente EBGaramond-SemiBold */
+@font-face {
+    font-family: 'EBGaramond-SemiBold';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdJtfMD6Y/0/EBGaramond-SemiBold.919b37dab70e3c2c1a43.b0d3e1551b4123c2a6d64f77816d0e7e.woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Define la fuente EBGaramond-Italic */
+@font-face {
+    font-family: 'EBGaramond-Italic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdJtfMD6Y/0/EBGaramond-Italic.c3bb4571bda0ae9e2e43b9.0a35f610c91fd3205bc8815484a71655.woff2');
+    font-style: italic;
+    font-weight: 400;
+}
+
+/*
+    Fuente Montserrat
+*/
+
+/* Define la fuente Montserrat-Regular */
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-Regular.b1c97ca3ccb1538ad290d.881b8da5ad9b82b143ab37dcdf069c4c.woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Define la fuente Montserrat-Bold */
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-Bold.541101364a6cca2fe958b78e.527cd5a6be21d4e008281f52ae03e6de.woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Define la fuente Montserrat-Italic */
+@font-face {
+    font-family: 'Montserrat-Italic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-Italic.9041417ec1323314c149c4.e8e51b9875286101e41224d1f8f57146.woff2');
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Define la fuente Montserrat-BoldItalic */
+@font-face {
+    font-family: 'Montserrat-BoldItalic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-BoldItalic.2685c0048a0abbcece.ccfa3463500b1d2425324b3a1a304119.woff2');
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* Define la fuente Montserrat-Thin */
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-Thin.112b7f7a89b95431822667a3.b9d3823184fbb6d5a9d5804d114b70ba.woff2');
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Define la fuente Montserrat-ThinItalic */
+@font-face {
+    font-family: 'Montserrat-ThinItalic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-ThinItalic.e8ec302a2d98e67c12.b33f6386bd461ec492dd56577e13136c.woff2');
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* Define la fuente Montserrat-ExtraLight */
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-ExtraLight.e5f668e77279a41232.b09eaaf9341f54a150766b674dd4dd66.woff2');
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* Define la fuente Montserrat-ExtraLightItalic */
+@font-face {
+    font-family: 'Montserrat-ExtraLightItalic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-ExtraLightItalic.2e58571a5552.c076bd8c37058ebdedabdda5c2d6b111.woff2');
+    font-style: italic;
+    font-weight: 200;
+}
+
+/* Define la fuente Montserrat-Light */
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-Light.0e307add03dade7539d0c10.9f211f1e580dd0c34c98242b67b454a1.woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* Define la fuente Montserrat-LightItalic */
+@font-face {
+    font-family: 'Montserrat-LightItalic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-LightItalic.ffcb10da6ceaf8d98.2ffd130498e37c9f925c671e0342f1e6.woff2');
+    font-style: italic;
+    font-weight: 300;
+}
+
+/* Define la fuente Montserrat-Medium */
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-Medium.a9d5fbd6b24346eeda92d8.b13d468f88f904752a71651083120b9b.woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Define la fuente Montserrat-MediumItalic */
+@font-face {
+    font-family: 'Montserrat-MediumItalic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-MediumItalic.ae5b72f2e70498d9.2f9ca4e3b153c05839a1665e2deae5bd.woff2');
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Define la fuente Montserrat-SemiBold */
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-SemiBold.c9710b28cd6952581b6d.10bae089b2dee90878d1d146921cad11.woff2');
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Define la fuente Montserrat-SemiBoldItalic */
+@font-face {
+    font-family: 'Montserrat-SemiBoldItalic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-SemiBoldItalic.dfac44e926a3ac.5300a700676e268371e3693408559b01.woff2');
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Define la fuente Montserrat-ExtraBold */
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-ExtraBold.7917a92969312cfb134.5da2f7e7b5289e2ae1f44d0ac2886371.woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* Define la fuente Montserrat-ExtraBoldItalic */
+@font-face {
+    font-family: 'Montserrat-ExtraBoldItalic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-ExtraBoldItalic.d0373ff7aec70.b76554414c3fa738aad9e680f54c765d.woff2');
+    font-style: italic;
+    font-weight: 800;
+}
+
+/* Define la fuente Montserrat-Black */
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-Black.1f69958a569d3eeb4829437.5c07b773952ecd9eb4715de302811a45.woff2');
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* Define la fuente Montserrat-BlackItalic */
+@font-face {
+    font-family: 'Montserrat-BlackItalic';
+    src: url('https://s3.amazonaws.com/font-public.canva.com/YAFdtQi73Xs/0/Montserrat-BlackItalic.b0418375225ecfb84.82e327672f883fc5445ed4de237127fd.woff2');
+    font-style: italic;
+    font-weight: 900;
+}
