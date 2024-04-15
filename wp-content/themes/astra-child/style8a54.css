@@ -1,16 +1,32 @@
 /**
-Theme Name: Eat-leaf
-Author: Pablo Bozzolo
-Description: Astra child
-Version: 1.0.0
-Text Domain: eat-leaf
-Template: astra
+    Theme Name: Eat-leaf
+    Author: Pablo Bozzolo
+    Description: Astra child
+    Version: 1.0.0
+    Text Domain: eat-leaf
+    Template: astra
 */
 
+/*
+    Custom styles for "Responsive Menu" plugin
+*/
+
+.ast-mobile-svg {
+    display: none;
+}
+
+@media only screen and (min-width: 780px) {
+    .rmp_menu_trigger {
+        display: none !important; 
+    }
+}
+
+.rmp-search-form {
+    margin-left: -5px !important;
+}
 
 /*
-    Primeras cards
-
+    First cards
 */
 
 .custom-container {
@@ -254,11 +270,7 @@ footer-contact-us {
 /* Estilo hover para los enlaces */
 .astflex.submenu-with-border .menu-link:hover {
     background-color: #ccc; /* Color de fondo al pasar el cursor sobre el enlace */
-}-
-
-
-
-
+}
 
 /*
     Cards
